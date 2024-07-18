@@ -1,0 +1,58 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.b  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+  }
+  
+  .timer {
+    text-align: center;
+    
+  }
+  
+  #timeDisplay {
+    font-size: 4rem;
+    margin-bottom: 20px;
+  }
+  
+  #controls {
+    margin-top: 20px;
+  }
+  
+  button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  button#pauseButton {
+    background-color: orange;
+    color: white;
+    border-radius: 8px;
+  }
+  
+  button#resetButton {
+    background-color: #dc3545;
+    color: white;
+    border-radius: 8px;
+  }
+  #startButton {
+    border-radius: 8px;
+  }
+
+
+
+.logo {
+    height: 80px;
+    width: 80px;
+    
+}
