@@ -31,3 +31,33 @@ document.getElementById('toggleButton').addEventListener('click', function() {
   });
 
 
+
+
+
+
+
+
+  //quote api gen
+  const button = document.getElementById('getQuoteButton');
+    const quoteContainer = document.getElementById('quote-container');
+    const quoteText = document.getElementById('quote');
+    const authorText = document.getElementById('author');
+
+    button.addEventListener('click', getQuote);
+
+    function getQuote() {
+      fetch("https://type.fit/api/quotes")
+        .then(function(response) {
+          return response.json();
+        })
+        .then(function(data) {
+          // Pick a random quote from the data
+          const randomQuote = data[Math.floor(Math.random() * data.length)];
+          
+          // Update the quote and author elements
+          quoteText.textContent = randomQuote.text;
+          authorText.textContent = `- ${randomQuote.author || 'Unknown'}`;
+        });
+    }
+
+
