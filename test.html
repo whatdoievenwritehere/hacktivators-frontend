@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover Effect</title>
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            margin-bottom: 10px;
+        }
+
+        .hidden-box {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            display: none;
+        }
+
+        .box:hover + .hidden-box {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <div class="hidden-box"></div>
+</body>
+</html>

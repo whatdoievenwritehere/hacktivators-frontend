@@ -64,3 +64,22 @@ function updateTimeDisplay() {
     timeLeft--;
   }
 }
+
+
+// slider failed attempt
+// let currentSlide = 0;
+// const slides = document.querySelector('.slides');
+// const totalSlides = document.querySelectorAll('.slides img').length;
+
+// function moveSlide(direction) {
+//     currentSlide = (currentSlide + direction + totalSlides) % totalSlides;
+//     const offset = -currentSlide * 100;
+//     slides.style.transform = `translateX(${offset}%)`;
+// }
+
+// document.addEventListener('DOMContentLoaded', () => {
+//     slides.style.width = `${totalSlides * 100}%`;
+//     document.querySelectorAll('.slides img').forEach(img => {
+//         img.style.width = `${100 / totalSlides}%`;
+//     });
+// });

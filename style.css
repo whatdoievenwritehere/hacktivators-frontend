@@ -33,7 +33,7 @@ header {
     
 }
 header.red {
-    background-color: #eb99b2;
+    background-color: #E0D6D9;
   }
   
   main {
@@ -178,6 +178,7 @@ h1 {
     height: 20px;
     align-self: center;
     padding: 15px;
+    border: 1px solid black;
 }
 
 .header-content {
@@ -189,7 +190,87 @@ h1 {
     
 }
 
+.not-header {
+    margin-top: 100px;
+    display: flex;
+}
 
+#tips {
+    
+    margin-bottom: 10px;
+}
+
+.hidden-content {
+    
+    display: none;
+}
+
+.header-content:hover + .hidden-content {
+    display: block;
+    
+}
+
+/* .hidden-content:hover + .hidden-content{
+    display: block;
+}
+ */
+ .div {
+    margin-top: 25px;
+ }
+
+
+ .mantra-bg {
+    height: 1000px;
+    width: 40%;
+    background-color: #AD525E;
+    color: white;
+    padding: 100px;
+}
+ .big-text {
+    
+    font-size: 50px;
+ }
+
+ .box {
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+  ;
+  
+    
+    
+    height: 250px;
+    width: 200px;
+    margin: 100px auto;
+    background: white;
+    border-radius: 5px;
+
+    overflow: hidden;
+  }
+  
+.woman-img {
+    width: 200px;
+    height: 100px;
+}
+.article-text {
+    padding: 8px;
+    
+}
+.description {
+    font-size: 13px;
+}
+.major-img {
+    height: 130px;
+    width: 200px;
+}
+.schol-img {
+    height: 100px;
+    width: 200px;
+}
 
 
 

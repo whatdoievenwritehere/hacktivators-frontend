@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #ffffff;
+    background-color: white;
   }
   
   .timer {
@@ -55,4 +55,110 @@
     height: 80px;
     width: 80px;
     
+}
+
+
+
+/* .slider {
+  width: 80%;
+  max-width: 800px;
+  margin: 50px auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  will-change: transform;
+}
+
+.slides img {
+  width: 100%;
+  flex-shrink: 0;
+  object-fit: cover;
+  border: 2px solid #ccc;
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  z-index: 1;
+}
+
+button.prev {
+  left: 10px;
+}
+
+button.next {
+  right: 10px;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+} */
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ffd1df; /* Light gray background color */
+ 
+}
+
+.logo {
+  display: block;
+  margin: 20px auto;
+  max-width: 200px;
+}
+
+.b {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 80px); /* Adjust the height to account for the logo's margin */
+  background-color: #ffd1df;
+}
+
+.timer {
+  background-color: rgba(255, 255, 255, 0.8); /* White background with some transparency */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#timeDisplay {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+#controls button {
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #f94593; 
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+#controls button:hover {
+  background-color: #f94593;
+}
+
+#controls button:disabled {
+  background-color: #cccccc; /* Gray background for disabled buttons */
+  cursor: not-allowed;
 }
