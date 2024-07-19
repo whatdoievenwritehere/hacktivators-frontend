@@ -61,3 +61,36 @@ document.getElementById('toggleButton').addEventListener('click', function() {
     }
 
 
+
+    const BASE_URL = 'https://backend-4-g9hl.onrender.com/'
+
+// Fetch the root message
+fetch(`${BASE_URL}/`)
+  .then(response => response.json())
+  .then(data => console.log('Root Message:', data))
+  .catch(error => console.error('Error fetching root message:', error));
+
+// Fetch all articles
+fetch(`${BASE_URL}/articles/`)
+  .then(response => response.json())
+  .then(data => console.log('Articles:', data))
+  .catch(error => console.error('Error fetching articles:', error));
+
+// Example data for creating an article
+const articleData = {
+  title: "New Article",
+  content: "Content of the new article",
+  author: "Author Name"
+};
+
+// Create a new article
+fetch(`${BASE_URL}/articles/`, {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json'
+  },
+  body: JSON.stringify(articleData)
+})
+.then(response => response.json())
+.then(data => console.log('Created Article:', data))
+.catch(error => console.error('Error creating article:', error));
