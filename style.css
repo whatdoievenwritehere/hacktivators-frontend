@@ -155,7 +155,7 @@ li:hover {
 
 }
 
-i {
+i, .c {
     font-size: 30px;
     align-self: center;
     /* margin: 0 50px 0 50px; */
@@ -252,9 +252,14 @@ h1 {
     overflow: hidden;
   }
   
+
+ .box3 {
+    height: 350px;
+    width: 350px;
+ } 
 .woman-img {
-    width: 200px;
-    height: 100px;
+    width: 350px;
+    height: 200px;
 }
 .article-text {
     padding: 8px;
@@ -271,9 +276,94 @@ h1 {
     height: 100px;
     width: 200px;
 }
+.box4 {
+    height: 200px;
+    width: 300px;
+}
+.network-img {
+    height: 100px;
+    width: 300px;
+}
 
+.aa {
+    padding: 50px;
+    margin-top: -100px;
+}
+.bb {
+    padding: 30px;
+    margin-top: -100px;
+}
 
-
+.quote-gen {
+    margin-top: 100px;
+    height: 130px;
+    width: 300px;
+    background-color: #bfbfdb;
+    border-radius: 5px;
+    padding: 10px;
+    color: #0D1445;
+}
+#quote {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+#author {
+    font-style: italic;
+}
+#getQuoteButton {
+      align-items: center;
+      background-color: #0D1445;
+      background-position: 0 0;
+      border: 1px solid #bfbfdb;
+      border-radius: 11px;
+      box-sizing: border-box;
+      color: #bfbfdb;
+      cursor: pointer;
+      display: flex;
+      font-size: 1rem;
+      font-weight: 700;
+      line-height: 33.4929px;
+      list-style: outside url(https://www.smashingmagazine.com/images/bullet.svg) none;
+      padding: 2px 12px;
+      text-align: left;
+      text-decoration: none;
+      text-shadow: none;
+      text-underline-offset: 1px;
+      transition: border .2s ease-in-out,box-shadow .2s ease-in-out;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      white-space: nowrap;
+      word-break: break-word;
+      margin-bottom: 5px;
+    }
+    
+    .button-45:active,
+    .button-45:hover,
+    .button-45:focus {
+      outline: 0;
+    }
+    
+    
+    .button-45:active {
+      background-color: #D33A2C;
+      box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+      color: #FFFFFF;
+    }
+    
+    .button-45:hover {
+      background-color: #FFE3E3;
+      border-color: #FAA4A4;
+    }
+    
+    .button-45:active:hover,
+    .button-45:focus:hover,
+    .button-45:focus {
+      background-color: #D33A2C;
+      box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+      color: #FFFFFF;
+    }
 
 
 
